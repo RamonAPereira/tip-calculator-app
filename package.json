@@ -1,0 +1,14 @@
+{
+  "name": "tip-calculator-app-main",
+  "version": "1.0.0",
+  "description": "frontend para um aplicativo que calcula gorgeta",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Ramon Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
