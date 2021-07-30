@@ -17,26 +17,27 @@
   <h1 class="logo-title">Spli<span></span>tter</h1>
   <div class="main-container">
     <div class="content-container">
-      <label for="bill">
+      <label class="label" for="bill">
         <p class="content-container__input-title">Bill</p>
         <input class="content-container__input" type="number" name="bill" placeholder="0">
       </label>
-      <label for="tip">
+      <label class="label" for="tip">
         <p class="content-container__input-title">Select Tip %</p>        
         <div class="button-grid">
           <button class="button">5%</button>
           <button class="button">10%</button>
-          <button class="button">15%</button>
+          <button class="button button--light">15%</button>
           <button class="button">25%</button>
           <button class="button">50%</button>
-          <input class=" content-container__input" type="number" name="custom" placeholder="Custom">
+          <input class=" content-container__input content-container__input--thin" type="number" name="custom" placeholder="Custom">
         </div>
       </label>
-      <label for="people">
+      <label class="label" for="people">
         <p class="content-container__input-title">Number of People</p>       
-        <input class="content-container__input" type="number" name="people" placeholder="0">
+        <input class="content-container__input" type="number" name="people" placeholder="2">
       </label>
     </div>
+    
     <div class="content-container content-container--primary">
       <div class="result">
         <div class="result-container">
@@ -53,9 +54,7 @@
             <p class="description__subtitle">/ person</p>
           </div>
           <span class="result__calc">$0.00</span>
-          </div>
-
-
+        </div>
       </div>
       <button class="button">Reset</button>
     </div>
