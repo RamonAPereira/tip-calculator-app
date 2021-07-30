@@ -33,20 +33,18 @@
   align-items: flex-start;
   width: 50%;
   border-radius: 1rem;
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 1.5rem;
 
   &--primary {
     background: $primary-color;
+    box-shadow: 0px 0px 10px $darker-grayish-cyan;
   }
 
   &__input-title {
     font-size: 0.9rem;
     font-weight: bold;
     color: $darker-grayish-cyan;
-    margin-bottom: 0.9rem;
-  }
-  &:nth-child(2) {
-    margin: 1rem 0;
+    margin-bottom: 0.3rem;
   }
 
   &__input {
@@ -62,6 +60,9 @@
 
     &--thin {
       font-weight: lighter;
+      font-size: 1.38rem;
+      text-align: center;
+      min-height: 100%;
     }
 
     &:hover {
@@ -85,6 +86,11 @@
 
 .label {
   width: 100%;
+
+  &--margin {
+    margin: 2rem 0;
+    //background: red;
+  }
 }
 
 .button {
@@ -107,7 +113,45 @@
   }
 
   &--light {
-    background-color: $darker-grayish-cyan;
+    background-color: $cyan;
+  }
+
+  &--large {
+    background: $cyan;
+    min-width: 100%;
+    text-transform: uppercase;
+    color: $primary-color;
+  }
+}
+
+//results
+.result {
+  width: 100%;
+  &__calc {
+    font-size: 2.4rem;
+    color: $cyan;
+    font-weight: bold;
+  }
+}
+
+.result-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.description {
+  &__title {
+    font-size: 1.053rem;
+    color: $white;
+  }
+
+  &__subtitle {
+    font-size: 0.747rem;
+    color: $dark-grayish-cyan;
   }
 }
 
