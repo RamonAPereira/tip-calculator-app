@@ -156,6 +156,16 @@
   }
 }
 
+@media (max-width: 600px) {
+  .main-container {
+    flex-direction: column;
+    margin: 0 0.5rem;
+  }
+  .content-container {
+    width: 100%;
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
