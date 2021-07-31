@@ -60,8 +60,8 @@
 
     &--thin {
       font-weight: lighter;
-      font-size: 1.38rem;
-      text-align: center;
+      font-size: 1.3rem;
+      text-align: end;
       min-height: 100%;
     }
 
@@ -152,6 +152,7 @@
   &__subtitle {
     font-size: 0.747rem;
     color: $dark-grayish-cyan;
+    text-align: left;
   }
 }
 

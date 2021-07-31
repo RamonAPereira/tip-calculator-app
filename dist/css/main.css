@@ -67,8 +67,8 @@ img {
     box-shadow: inset 0px 0px 10px #c5e4e7; }
     .content-container__input--thin {
       font-weight: lighter;
-      font-size: 1.38rem;
-      text-align: center;
+      font-size: 1.3rem;
+      text-align: end;
       min-height: 100%; }
     .content-container__input:hover {
       outline: 2px dashed #c5e4e7;
@@ -133,7 +133,8 @@ img {
 
 .description__subtitle {
   font-size: 0.747rem;
-  color: #7f9c9f; }
+  color: #7f9c9f;
+  text-align: left; }
 
 .attribution {
   font-size: 11px;
